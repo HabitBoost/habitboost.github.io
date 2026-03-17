@@ -1,11 +1,23 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import AppHeader from './components/AppHeader.vue'
+import HeroSection from './components/HeroSection.vue'
+import FeaturesSection from './components/FeaturesSection.vue'
+import HowItWorksSection from './components/HowItWorksSection.vue'
+import SocialProofSection from './components/SocialProofSection.vue'
+import DownloadCTA from './components/DownloadCTA.vue'
+import AppFooter from './components/AppFooter.vue'
+</script>
 
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <div class="min-h-screen flex flex-col">
+    <AppHeader />
+    <main class="flex flex-col flex-1">
+      <HeroSection />
+      <FeaturesSection />
+      <HowItWorksSection />
+      <SocialProofSection />
+      <DownloadCTA />
+    </main>
+    <AppFooter />
+  </div>
 </template>
-
-<style scoped></style>
