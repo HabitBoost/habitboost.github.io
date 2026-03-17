@@ -209,7 +209,8 @@
                   "content": "Отслеживайте ежедневные привычки, сохраняйте мотивацию с помощью серий и меняйте свою жизнь благодаря мощной аналитике. Присоединяйтесь к миллионам.",
                   "lineHeight": 1.5,
                   "fontFamily": "Inter",
-                  "fontSize": 18
+                  "fontSize": 18,
+                  "fontWeight": "normal"
                 },
                 {
                   "type": "frame",
@@ -471,7 +472,8 @@
                   "lineHeight": 1.5,
                   "textAlign": "center",
                   "fontFamily": "Inter",
-                  "fontSize": 17
+                  "fontSize": 17,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -551,7 +553,8 @@
                           "content": "Никогда не пропустите привычку благодаря умным уведомлениям, которые подстраиваются под ваш график.",
                           "lineHeight": 1.5,
                           "fontFamily": "Inter",
-                          "fontSize": 14
+                          "fontSize": 14,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -615,7 +618,8 @@
                           "content": "Поддерживайте мотивацию с помощью визуальных счётчиков серий, которые отмечают вашу стабильность.",
                           "lineHeight": 1.5,
                           "fontFamily": "Inter",
-                          "fontSize": 14
+                          "fontSize": 14,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -679,7 +683,8 @@
                           "content": "Получайте персонализированную аналитику и полезные инсайты для улучшения ваших привычек.",
                           "lineHeight": 1.5,
                           "fontFamily": "Inter",
-                          "fontSize": 14
+                          "fontSize": 14,
+                          "fontWeight": "normal"
                         }
                       ]
                     }
@@ -753,7 +758,8 @@
                           "content": "Начните быстро с готовыми шаблонами для фитнеса, осознанности, продуктивности и многого другого.",
                           "lineHeight": 1.5,
                           "fontFamily": "Inter",
-                          "fontSize": 14
+                          "fontSize": 14,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -817,7 +823,8 @@
                           "content": "Визуализируйте свой путь с помощью красивого календаря, показывающего ежедневный прогресс.",
                           "lineHeight": 1.5,
                           "fontFamily": "Inter",
-                          "fontSize": 14
+                          "fontSize": 14,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -881,7 +888,8 @@
                           "content": "Зарабатывайте бейджи и награды за достижение целей, поддерживая интерес и радость от побед.",
                           "lineHeight": 1.5,
                           "fontFamily": "Inter",
-                          "fontSize": 14
+                          "fontSize": 14,
+                          "fontWeight": "normal"
                         }
                       ]
                     }
@@ -956,7 +964,8 @@
                   "lineHeight": 1.5,
                   "textAlign": "center",
                   "fontFamily": "Inter",
-                  "fontSize": 17
+                  "fontSize": 17,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -1041,7 +1050,8 @@
                       "lineHeight": 1.5,
                       "textAlign": "center",
                       "fontFamily": "Inter",
-                      "fontSize": 14
+                      "fontSize": 14,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -1118,7 +1128,8 @@
                       "lineHeight": 1.5,
                       "textAlign": "center",
                       "fontFamily": "Inter",
-                      "fontSize": 14
+                      "fontSize": 14,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -1195,7 +1206,8 @@
                       "lineHeight": 1.5,
                       "textAlign": "center",
                       "fontFamily": "Inter",
-                      "fontSize": 14
+                      "fontSize": 14,
+                      "fontWeight": "normal"
                     }
                   ]
                 }
@@ -1470,7 +1482,8 @@
                       "content": "HabitBoost полностью изменил мой утренний распорядок. Отслеживание серий мотивирует меня каждый день!",
                       "lineHeight": 1.6,
                       "fontFamily": "Inter",
-                      "fontSize": 16
+                      "fontSize": 16,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "frame",
@@ -2220,6 +2233,2087 @@
                       "type": "icon_font",
                       "id": "OvHfd",
                       "name": "iconLi",
+                      "width": 20,
+                      "height": 20,
+                      "iconFontName": "linkedin",
+                      "iconFontFamily": "lucide",
+                      "fill": "#FFFFFF60"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "m1AKm",
+      "x": 1540,
+      "y": 0,
+      "name": "HabitBoost Mobile",
+      "width": 375,
+      "fill": "$white",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "a7cLh",
+          "name": "Mobile Header",
+          "width": "fill_container",
+          "fill": "$white",
+          "stroke": {
+            "align": "inside",
+            "thickness": {
+              "bottom": 1
+            },
+            "fill": "$border"
+          },
+          "padding": [
+            0,
+            16
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "F5OR9",
+              "name": "logo",
+              "fill": "$primary",
+              "content": "HabitBoost",
+              "fontFamily": "DM Sans",
+              "fontSize": 20,
+              "fontWeight": "700"
+            },
+            {
+              "type": "icon_font",
+              "id": "ELHkD",
+              "name": "hamburger",
+              "width": 24,
+              "height": 24,
+              "iconFontName": "menu",
+              "iconFontFamily": "lucide",
+              "fill": "$text-primary"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "9335M",
+          "name": "Mobile Hero",
+          "width": "fill_container",
+          "fill": {
+            "type": "gradient",
+            "gradientType": "linear",
+            "enabled": true,
+            "rotation": 180,
+            "size": {
+              "height": 1
+            },
+            "colors": [
+              {
+                "color": "$primary",
+                "position": 0
+              },
+              {
+                "color": "$primary-light",
+                "position": 0.6
+              },
+              {
+                "color": "#EDE9FE",
+                "position": 1
+              }
+            ]
+          },
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            48,
+            40
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "wPtIw",
+              "name": "badge",
+              "fill": "#FFFFFF22",
+              "cornerRadius": 100,
+              "padding": [
+                8,
+                16
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "jsUgL",
+                  "name": "badgeText",
+                  "fill": "#FFFFFFDD",
+                  "content": "Приложение #1 для трекинга привычек",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "fZsSB",
+              "name": "headline",
+              "fill": "$white",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Формируйте полезные привычки день за днём",
+              "lineHeight": 1.1,
+              "textAlign": "center",
+              "fontFamily": "DM Sans",
+              "fontSize": 32,
+              "fontWeight": "800"
+            },
+            {
+              "type": "text",
+              "id": "U0QKE",
+              "name": "subline",
+              "fill": "#FFFFFFCC",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Простой и эффективный трекер привычек, который поможет вам достичь любых целей. Отслеживайте прогресс и оставайтесь мотивированными каждый день.",
+              "lineHeight": 1.5,
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 15,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "wAiXZ",
+              "name": "btnWrap",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "DDS5i",
+                  "name": "btnAppStore",
+                  "width": "fill_container",
+                  "height": 52,
+                  "fill": "$white",
+                  "cornerRadius": 14,
+                  "gap": 8,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "0G4qw",
+                      "name": "btnAppIcon",
+                      "width": 20,
+                      "height": 20,
+                      "iconFontName": "apple",
+                      "iconFontFamily": "lucide",
+                      "fill": "$text-primary"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Oe481",
+                      "name": "btnAppLabel",
+                      "fill": "$text-primary",
+                      "content": "App Store",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "isVsi",
+                  "name": "btnGPlay",
+                  "width": "fill_container",
+                  "height": 52,
+                  "fill": "#FFFFFF00",
+                  "cornerRadius": 14,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1.5,
+                    "fill": "#FFFFFF66"
+                  },
+                  "gap": 8,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "1vert",
+                      "name": "btnGPlayIcon",
+                      "width": 20,
+                      "height": 20,
+                      "iconFontName": "play",
+                      "iconFontFamily": "lucide",
+                      "fill": "$white"
+                    },
+                    {
+                      "type": "text",
+                      "id": "cgNDF",
+                      "name": "btnGPlayLabel",
+                      "fill": "$white",
+                      "content": "Google Play",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "jsjqL",
+              "name": "trustRow",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Eq9Nf",
+                  "name": "starsWrap",
+                  "gap": 2,
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "6TvjZ",
+                      "name": "star1",
+                      "width": 16,
+                      "height": 16,
+                      "iconFontName": "star",
+                      "iconFontFamily": "lucide",
+                      "fill": "#FBBF24"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "YuUb8",
+                      "name": "star2",
+                      "width": 16,
+                      "height": 16,
+                      "iconFontName": "star",
+                      "iconFontFamily": "lucide",
+                      "fill": "#FBBF24"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "EN0Y5",
+                      "name": "star3",
+                      "width": 16,
+                      "height": 16,
+                      "iconFontName": "star",
+                      "iconFontFamily": "lucide",
+                      "fill": "#FBBF24"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "e3zNQ",
+                      "name": "star4",
+                      "width": 16,
+                      "height": 16,
+                      "iconFontName": "star",
+                      "iconFontFamily": "lucide",
+                      "fill": "#FBBF24"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "2JOoA",
+                      "name": "star5",
+                      "width": 16,
+                      "height": 16,
+                      "iconFontName": "star",
+                      "iconFontFamily": "lucide",
+                      "fill": "#FBBF24"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "ya7t7",
+                  "name": "ratingText",
+                  "fill": "#FFFFFFBB",
+                  "content": "4.9 — 10,000+ пользователей",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "6yXl9",
+          "name": "Mobile Features",
+          "width": "fill_container",
+          "fill": "$white",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": 40,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "ilMND",
+              "name": "featBadge",
+              "fill": "$primary-bg",
+              "cornerRadius": 100,
+              "padding": [
+                6,
+                14
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Z4t9H",
+                  "name": "featBadgeText",
+                  "fill": "$primary",
+                  "content": "Возможности",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "4BIVS",
+              "name": "featTitle",
+              "fill": "$text-primary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Всё, что нужно для формирования устойчивых привычек",
+              "lineHeight": 1.2,
+              "textAlign": "center",
+              "fontFamily": "DM Sans",
+              "fontSize": 26,
+              "fontWeight": "800"
+            },
+            {
+              "type": "text",
+              "id": "XrsQ7",
+              "name": "featSub",
+              "fill": "$text-secondary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Мощные инструменты для создания и поддержания полезных привычек",
+              "lineHeight": 1.5,
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "aO6n4",
+              "name": "featCards",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "mvEPG",
+                  "name": "card1",
+                  "width": "fill_container",
+                  "fill": "$bg",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$border"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Lct9y",
+                      "name": "icon1w",
+                      "width": 48,
+                      "height": 48,
+                      "fill": "$primary-bg",
+                      "cornerRadius": 12,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "cSFyZ",
+                          "name": "icon1",
+                          "width": 24,
+                          "height": 24,
+                          "iconFontName": "target",
+                          "iconFontFamily": "lucide",
+                          "fill": "$primary"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "bSla9",
+                      "name": "title1",
+                      "fill": "$text-primary",
+                      "content": "Трекинг привычек",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 17,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "xEEen",
+                      "name": "desc1",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Создавайте и отслеживайте ежедневные привычки с удобным интерфейсом",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "0BKRa",
+                  "name": "card2",
+                  "width": "fill_container",
+                  "fill": "$bg",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$border"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "pjkdi",
+                      "name": "icon2w",
+                      "width": 48,
+                      "height": 48,
+                      "fill": "$primary-bg",
+                      "cornerRadius": 12,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "thbh3",
+                          "name": "icon2",
+                          "width": 24,
+                          "height": 24,
+                          "iconFontName": "chart-no-axes-column-increasing",
+                          "iconFontFamily": "lucide",
+                          "fill": "$primary"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "nrQXV",
+                      "name": "title2",
+                      "fill": "$text-primary",
+                      "content": "Аналитика прогресса",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 17,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "CwTOl",
+                      "name": "desc2",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Детальная статистика и графики вашего прогресса за любой период",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "57gnz",
+                  "name": "card3",
+                  "width": "fill_container",
+                  "fill": "$bg",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$border"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Ynf8y",
+                      "name": "icon3w",
+                      "width": 48,
+                      "height": 48,
+                      "fill": "$primary-bg",
+                      "cornerRadius": 12,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "PYUiI",
+                          "name": "icon3",
+                          "width": 24,
+                          "height": 24,
+                          "iconFontName": "bell",
+                          "iconFontFamily": "lucide",
+                          "fill": "$primary"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "RukFB",
+                      "name": "title3",
+                      "fill": "$text-primary",
+                      "content": "Умные напоминания",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 17,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "pHsmg",
+                      "name": "desc3",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Настраиваемые уведомления, чтобы вы никогда не пропускали привычку",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "l4G1e",
+                  "name": "card4",
+                  "width": "fill_container",
+                  "fill": "$bg",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$border"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "R1vgV",
+                      "name": "icon4w",
+                      "width": 48,
+                      "height": 48,
+                      "fill": "$primary-bg",
+                      "cornerRadius": 12,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "kc9hj",
+                          "name": "icon4",
+                          "width": 24,
+                          "height": 24,
+                          "iconFontName": "users",
+                          "iconFontFamily": "lucide",
+                          "fill": "$primary"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "fszr8",
+                      "name": "title4",
+                      "fill": "$text-primary",
+                      "content": "Социальная мотивация",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 17,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "fMfbl",
+                      "name": "desc4",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Соревнуйтесь с друзьями и делитесь достижениями",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "LM6gc",
+                  "name": "card5",
+                  "width": "fill_container",
+                  "fill": "$bg",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$border"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "i0YEg",
+                      "name": "icon5w",
+                      "width": 48,
+                      "height": 48,
+                      "fill": "$primary-bg",
+                      "cornerRadius": 12,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "Se06g",
+                          "name": "icon5",
+                          "width": 24,
+                          "height": 24,
+                          "iconFontName": "trophy",
+                          "iconFontFamily": "lucide",
+                          "fill": "$primary"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "aHseK",
+                      "name": "title5",
+                      "fill": "$text-primary",
+                      "content": "Система наград",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 17,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "37HoP",
+                      "name": "desc5",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Получайте награды и достижения за выполнение привычек",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Gm9xt",
+                  "name": "card6",
+                  "width": "fill_container",
+                  "fill": "$bg",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$border"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "TL9H1",
+                      "name": "icon6w",
+                      "width": 48,
+                      "height": 48,
+                      "fill": "$primary-bg",
+                      "cornerRadius": 12,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "wMCYq",
+                          "name": "icon6",
+                          "width": 24,
+                          "height": 24,
+                          "iconFontName": "shield",
+                          "iconFontFamily": "lucide",
+                          "fill": "$primary"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "rhu4Y",
+                      "name": "title6",
+                      "fill": "$text-primary",
+                      "content": "Приватность данных",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 17,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "oguiT",
+                      "name": "desc6",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Ваши данные надёжно защищены и полностью принадлежат вам",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "o51BY",
+          "name": "Mobile How It Works",
+          "width": "fill_container",
+          "fill": "$primary-bg",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": 40,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "6tPy2",
+              "name": "howBadge",
+              "fill": "$white",
+              "cornerRadius": 100,
+              "padding": [
+                6,
+                14
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "oJqRi",
+                  "name": "howBadgeText",
+                  "fill": "$primary",
+                  "content": "Как это работает",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "wlFWY",
+              "name": "howTitle",
+              "fill": "$text-primary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Как работает HabitBoost",
+              "lineHeight": 1.2,
+              "textAlign": "center",
+              "fontFamily": "DM Sans",
+              "fontSize": 26,
+              "fontWeight": "800"
+            },
+            {
+              "type": "text",
+              "id": "AYZlt",
+              "name": "howSub",
+              "fill": "$text-secondary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Три простых шага к устойчивым привычкам",
+              "lineHeight": 1.5,
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "YfSUq",
+              "name": "howCards",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "H3qZn",
+                  "name": "step1",
+                  "width": "fill_container",
+                  "fill": "$white",
+                  "cornerRadius": 20,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 32,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "jPjNI",
+                      "name": "step1num",
+                      "fill": "$text-muted",
+                      "content": "01",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Nxy0R",
+                      "name": "step1iconW",
+                      "width": 56,
+                      "height": 56,
+                      "fill": "$primary-bg",
+                      "cornerRadius": 28,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "tZXmb",
+                          "name": "step1icon",
+                          "width": 28,
+                          "height": 28,
+                          "iconFontName": "circle-plus",
+                          "iconFontFamily": "lucide",
+                          "fill": "$primary"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "tZlNe",
+                      "name": "step1title",
+                      "fill": "$text-primary",
+                      "content": "Создайте привычку",
+                      "textAlign": "center",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 17,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "uh3yc",
+                      "name": "step1desc",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Выберите привычку из каталога или создайте свою с индивидуальными настройками",
+                      "lineHeight": 1.5,
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "66TfZ",
+                  "name": "step2",
+                  "width": "fill_container",
+                  "fill": "$white",
+                  "cornerRadius": 20,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 32,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Gsq4A",
+                      "name": "step2num",
+                      "fill": "$text-muted",
+                      "content": "02",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "u9lGq",
+                      "name": "step2iconW",
+                      "width": 56,
+                      "height": 56,
+                      "fill": "#D1FAE533",
+                      "cornerRadius": 28,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "Q5bty",
+                          "name": "step2icon",
+                          "width": 28,
+                          "height": 28,
+                          "iconFontName": "circle-check",
+                          "iconFontFamily": "lucide",
+                          "fill": "$success"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "qufNg",
+                      "name": "step2title",
+                      "fill": "$text-primary",
+                      "content": "Отмечайте прогресс",
+                      "textAlign": "center",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 17,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "cxs4n",
+                      "name": "step2desc",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Каждый день отмечайте выполненные привычки и следите за серией выполнений",
+                      "lineHeight": 1.5,
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "gRrxw",
+                  "name": "step3",
+                  "width": "fill_container",
+                  "fill": "$white",
+                  "cornerRadius": 20,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 32,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "BNeCc",
+                      "name": "step3num",
+                      "fill": "$text-muted",
+                      "content": "03",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "8knDc",
+                      "name": "step3iconW",
+                      "width": 56,
+                      "height": 56,
+                      "fill": "#EDE9FE",
+                      "cornerRadius": 28,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "YqY1l",
+                          "name": "step3icon",
+                          "width": 28,
+                          "height": 28,
+                          "iconFontName": "trending-up",
+                          "iconFontFamily": "lucide",
+                          "fill": "$accent"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "lVzBQ",
+                      "name": "step3title",
+                      "fill": "$text-primary",
+                      "content": "Достигайте целей",
+                      "textAlign": "center",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 17,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "h3ZIs",
+                      "name": "step3desc",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Анализируйте свой прогресс и празднуйте достижения на пути к лучшей версии себя",
+                      "lineHeight": 1.5,
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ZA7k6",
+          "name": "Mobile Social Proof",
+          "width": "fill_container",
+          "fill": "$white",
+          "layout": "vertical",
+          "gap": 40,
+          "padding": [
+            48,
+            24
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "mNXxS",
+              "name": "secTitle",
+              "fill": "$text-primary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Что говорят наши пользователи",
+              "textAlign": "center",
+              "fontFamily": "DM Sans",
+              "fontSize": 26,
+              "fontWeight": "700",
+              "letterSpacing": -0.3
+            },
+            {
+              "type": "text",
+              "id": "5X2ai",
+              "name": "secSub",
+              "fill": "$text-secondary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Присоединяйтесь к тысячам людей, изменивших свой распорядок дня",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 15,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "Keywl",
+              "name": "Stats Grid",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "k7MLP",
+                  "name": "Stats Row 1",
+                  "width": "fill_container",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "AgAYw",
+                      "name": "stat1",
+                      "width": "fill_container",
+                      "fill": "$white",
+                      "cornerRadius": 12,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "$border"
+                      },
+                      "layout": "vertical",
+                      "gap": 4,
+                      "padding": [
+                        20,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Sb6kz",
+                          "name": "s1num",
+                          "fill": "$primary",
+                          "content": "50K+",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 28,
+                          "fontWeight": "700",
+                          "letterSpacing": -0.5
+                        },
+                        {
+                          "type": "text",
+                          "id": "r8zfW",
+                          "name": "s1label",
+                          "fill": "$text-secondary",
+                          "content": "Активных пользователей",
+                          "textAlign": "center",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "2Cp6D",
+                      "name": "stat2",
+                      "width": "fill_container",
+                      "fill": "$white",
+                      "cornerRadius": 12,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "$border"
+                      },
+                      "layout": "vertical",
+                      "gap": 4,
+                      "padding": [
+                        20,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "vFJXo",
+                          "name": "s2num",
+                          "fill": "$primary",
+                          "content": "1M+",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 28,
+                          "fontWeight": "700",
+                          "letterSpacing": -0.5
+                        },
+                        {
+                          "type": "text",
+                          "id": "buo8m",
+                          "name": "s2label",
+                          "fill": "$text-secondary",
+                          "content": "Привычек отслежено",
+                          "textAlign": "center",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "0rTg6",
+                  "name": "Stats Row 2",
+                  "width": "fill_container",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "OAF1x",
+                      "name": "stat3",
+                      "width": "fill_container",
+                      "fill": "$white",
+                      "cornerRadius": 12,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "$border"
+                      },
+                      "layout": "vertical",
+                      "gap": 4,
+                      "padding": [
+                        20,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "aH8LB",
+                          "name": "s3num",
+                          "fill": "$primary",
+                          "content": "4.8★",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 28,
+                          "fontWeight": "700",
+                          "letterSpacing": -0.5
+                        },
+                        {
+                          "type": "text",
+                          "id": "lrOWr",
+                          "name": "s3label",
+                          "fill": "$text-secondary",
+                          "content": "Рейтинг App Store",
+                          "textAlign": "center",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "6XBZg",
+                      "name": "stat4",
+                      "width": "fill_container",
+                      "fill": "$white",
+                      "cornerRadius": 12,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "$border"
+                      },
+                      "layout": "vertical",
+                      "gap": 4,
+                      "padding": [
+                        20,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "uVjT7",
+                          "name": "s4num",
+                          "fill": "$primary",
+                          "content": "92%",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 28,
+                          "fontWeight": "700",
+                          "letterSpacing": -0.5
+                        },
+                        {
+                          "type": "text",
+                          "id": "TkBvA",
+                          "name": "s4label",
+                          "fill": "$text-secondary",
+                          "content": "Успешность",
+                          "textAlign": "center",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "rhYIh",
+              "name": "Testimonials",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "qkr7v",
+                  "name": "t1",
+                  "width": "fill_container",
+                  "fill": "$primary-bg",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#E8E0F5"
+                  },
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "wPkmz",
+                      "name": "t1stars",
+                      "fill": "$primary",
+                      "content": "★★★★★",
+                      "fontFamily": "Inter",
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "LXTgQ",
+                      "name": "t1quote",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "HabitBoost полностью изменил мой утренний распорядок. Отслеживание серий мотивирует меня каждый день!",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "CSVSR",
+                      "name": "t1author",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "ellipse",
+                          "id": "PZ1FU",
+                          "name": "t1av",
+                          "fill": "$primary",
+                          "width": 36,
+                          "height": 36
+                        },
+                        {
+                          "type": "frame",
+                          "id": "9nZNo",
+                          "name": "t1info",
+                          "layout": "vertical",
+                          "gap": 2,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "UG72V",
+                              "name": "t1name",
+                              "fill": "$text-primary",
+                              "content": "Алексей М.",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "lGviz",
+                              "name": "t1role",
+                              "fill": "$text-secondary",
+                              "content": "Предприниматель",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Ah40G",
+                  "name": "t2",
+                  "width": "fill_container",
+                  "fill": "$primary-bg",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#E8E0F5"
+                  },
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "zqKXk",
+                      "name": "t2stars",
+                      "fill": "$primary",
+                      "content": "★★★★★",
+                      "fontFamily": "Inter",
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "SNQQA",
+                      "name": "t2quote",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Я перепробовала десятки приложений для привычек, но именно это прижилось. Напоминания умные, а интерфейс красивый.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "AUkNB",
+                      "name": "t2author",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "ellipse",
+                          "id": "Jqrgv",
+                          "name": "t2av",
+                          "fill": "$accent",
+                          "width": 36,
+                          "height": 36
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ZlmhE",
+                          "name": "t2info",
+                          "layout": "vertical",
+                          "gap": 2,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "NPcpi",
+                              "name": "t2name",
+                              "fill": "$text-primary",
+                              "content": "Мария К.",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "Mp9aX",
+                              "name": "t2role",
+                              "fill": "$text-secondary",
+                              "content": "Дизайнер",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "80TUo",
+                  "name": "t3",
+                  "width": "fill_container",
+                  "fill": "$primary-bg",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#E8E0F5"
+                  },
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Qpj9d",
+                      "name": "t3stars",
+                      "fill": "$primary",
+                      "content": "★★★★★",
+                      "fontFamily": "Inter",
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "a6SpW",
+                      "name": "t3quote",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Бейджи достижений затягивают! Вся моя семья теперь соревнуется, кто соберёт самую длинную серию.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Rid20",
+                      "name": "t3author",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "ellipse",
+                          "id": "NFsfL",
+                          "name": "t3av",
+                          "fill": "$primary-dark",
+                          "width": 36,
+                          "height": 36
+                        },
+                        {
+                          "type": "frame",
+                          "id": "cUtLM",
+                          "name": "t3info",
+                          "layout": "vertical",
+                          "gap": 2,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "gghsq",
+                              "name": "t3name",
+                              "fill": "$text-primary",
+                              "content": "Дмитрий В.",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "lkadY",
+                              "name": "t3role",
+                              "fill": "$text-secondary",
+                              "content": "Студент",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "JkyYB",
+          "name": "Mobile Download CTA",
+          "width": "fill_container",
+          "fill": {
+            "type": "gradient",
+            "gradientType": "linear",
+            "enabled": true,
+            "rotation": 180,
+            "size": {
+              "height": 1
+            },
+            "colors": [
+              {
+                "color": "#7C3AED",
+                "position": 0
+              },
+              {
+                "color": "#5B21B6",
+                "position": 1
+              }
+            ]
+          },
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            48,
+            24
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "cQ3uZ",
+              "name": "ctaBadge",
+              "fill": "#FFFFFF20",
+              "cornerRadius": 100,
+              "padding": [
+                6,
+                14
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "97uON",
+                  "name": "ctaBadgeTxt",
+                  "fill": "#FFFFFFCC",
+                  "content": "Скоро в доступе",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "XiWLY",
+              "name": "ctaTitle",
+              "fill": "$white",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Начните формировать полезные привычки уже сегодня",
+              "textAlign": "center",
+              "fontFamily": "DM Sans",
+              "fontSize": 28,
+              "fontWeight": "700",
+              "letterSpacing": -0.3
+            },
+            {
+              "type": "text",
+              "id": "gVhzh",
+              "name": "ctaSub",
+              "fill": "#FFFFFFCC",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Скачайте HabitBoost и присоединяйтесь к 50 000+ людей, которые меняют свою жизнь шаг за шагом.",
+              "lineHeight": 1.6,
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 15,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "iQGDJ",
+              "name": "ctaBtns",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "padding": [
+                8,
+                0,
+                0,
+                0
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "6Nqpm",
+                  "name": "appStoreBtn",
+                  "width": "fill_container",
+                  "fill": "$white",
+                  "cornerRadius": 12,
+                  "gap": 12,
+                  "padding": [
+                    14,
+                    24
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "k5d9q",
+                      "name": "appIcon",
+                      "width": 22,
+                      "height": 22,
+                      "iconFontName": "apple",
+                      "iconFontFamily": "lucide",
+                      "fill": "$primary"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "PQywH",
+                      "name": "appTxtWrap",
+                      "layout": "vertical",
+                      "gap": 1,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "tt1pQ",
+                          "name": "appSmall",
+                          "fill": "$text-secondary",
+                          "content": "Загрузите в",
+                          "fontFamily": "Inter",
+                          "fontSize": 10,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "N7aBr",
+                          "name": "appBig",
+                          "fill": "$text-primary",
+                          "content": "App Store",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 16,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "F2zBv",
+                  "name": "gpBtn",
+                  "width": "fill_container",
+                  "fill": "$white",
+                  "cornerRadius": 12,
+                  "gap": 12,
+                  "padding": [
+                    14,
+                    24
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "4nG1C",
+                      "name": "gpIcon",
+                      "width": 22,
+                      "height": 22,
+                      "iconFontName": "play",
+                      "iconFontFamily": "lucide",
+                      "fill": "$primary"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "URWnw",
+                      "name": "gpTxtWrap",
+                      "layout": "vertical",
+                      "gap": 1,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "UdC4X",
+                          "name": "gpSmall",
+                          "fill": "$text-secondary",
+                          "content": "Доступно в",
+                          "fontFamily": "Inter",
+                          "fontSize": 10,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "T4yob",
+                          "name": "gpBig",
+                          "fill": "$text-primary",
+                          "content": "Google Play",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 16,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "Ic1F8",
+              "name": "ctaTrust",
+              "fill": "#FFFFFF99",
+              "content": "Бесплатно · Без карты · Отмена в любой момент",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "kXXJh",
+          "name": "Mobile Footer",
+          "width": "fill_container",
+          "fill": "$text-primary",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            40,
+            24
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "0kReA",
+              "name": "footerBrand",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "4vfiB",
+                  "name": "fLogo",
+                  "fill": "$white",
+                  "content": "HabitBoost",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 22,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "hmcWl",
+                  "name": "fDesc",
+                  "fill": "#FFFFFF80",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Формируйте полезные привычки, меняйте свою жизнь. Один маленький шаг за раз.",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "m0sQP",
+              "name": "footerLinks",
+              "width": "fill_container",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "ZVA3Q",
+                  "name": "col1",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "lXQpW",
+                      "name": "c1t",
+                      "fill": "$white",
+                      "content": "Продукт",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "AHZjX",
+                      "name": "c1l1",
+                      "fill": "#FFFFFF80",
+                      "content": "Возможности",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "eYxYX",
+                      "name": "c1l2",
+                      "fill": "#FFFFFF80",
+                      "content": "Цены",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "BjBu4",
+                      "name": "c1l3",
+                      "fill": "#FFFFFF80",
+                      "content": "Обновления",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "7AQb1",
+                  "name": "col2",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "qO9Yo",
+                      "name": "c2t",
+                      "fill": "$white",
+                      "content": "Компания",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ErdKV",
+                      "name": "c2l1",
+                      "fill": "#FFFFFF80",
+                      "content": "О нас",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Uv0Wq",
+                      "name": "c2l2",
+                      "fill": "#FFFFFF80",
+                      "content": "Блог",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "6X8JO",
+                      "name": "c2l3",
+                      "fill": "#FFFFFF80",
+                      "content": "Контакты",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "fWAxg",
+                  "name": "col3",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "cqXpJ",
+                      "name": "c3t",
+                      "fill": "$white",
+                      "content": "Правовое",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "aLCcG",
+                      "name": "c3l1",
+                      "fill": "#FFFFFF80",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Конфиденциальность",
+                      "lineHeight": 1.4,
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Z7jwx",
+                      "name": "c3l2",
+                      "fill": "#FFFFFF80",
+                      "content": "Условия",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "zHXxD",
+                      "name": "c3l3",
+                      "fill": "#FFFFFF80",
+                      "content": "Cookie",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "rectangle",
+              "id": "I1TSG",
+              "name": "divider",
+              "fill": "#FFFFFF15",
+              "width": "fill_container",
+              "height": 1
+            },
+            {
+              "type": "frame",
+              "id": "66UV2",
+              "name": "footerBottom",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "qR4Km",
+                  "name": "copyright",
+                  "fill": "#FFFFFF60",
+                  "content": "© 2026 HabitBoost. Все права защищены.",
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "gbNdf",
+                  "name": "socialIcons",
+                  "gap": 20,
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "mX8XR",
+                      "name": "tw",
+                      "width": 20,
+                      "height": 20,
+                      "iconFontName": "twitter",
+                      "iconFontFamily": "lucide",
+                      "fill": "#FFFFFF60"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "et9ba",
+                      "name": "ig",
+                      "width": 20,
+                      "height": 20,
+                      "iconFontName": "instagram",
+                      "iconFontFamily": "lucide",
+                      "fill": "#FFFFFF60"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "dr2Q5",
+                      "name": "gh",
+                      "width": 20,
+                      "height": 20,
+                      "iconFontName": "github",
+                      "iconFontFamily": "lucide",
+                      "fill": "#FFFFFF60"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "zak9N",
+                      "name": "li",
                       "width": 20,
                       "height": 20,
                       "iconFontName": "linkedin",
