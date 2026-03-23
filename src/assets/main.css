@@ -1,21 +1,24 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary: #7C3AED;
-  --color-primary-dark: #5B21B6;
-  --color-primary-light: #A78BFA;
-  --color-primary-bg: #F5F3FF;
-  --color-accent: #8B5CF6;
-  --color-success: #10B981;
-  --color-bg: #FAFAFE;
+  --color-primary: #1A1A1A;
+  --color-primary-dark: #000000;
+  --color-accent-coral: #FF6B6B;
+  --color-accent-green: #22C55E;
+  --color-accent-indigo: #6366F1;
+  --color-accent-yellow: #FBBF24;
+  --color-accent-orange: #D97706;
+  --color-bg-page: #FFFFFF;
+  --color-bg-card: #F6F7F8;
   --color-border: #E5E7EB;
-  --color-text-primary: #1E1B2E;
+  --color-border-subtle: #F3F4F6;
+  --color-text-primary: #1A1A1A;
   --color-text-secondary: #6B7280;
-  --color-text-muted: #9CA3AF;
+  --color-text-tertiary: #9CA3AF;
   --color-white: #FFFFFF;
 
-  --font-heading: "DM Sans", sans-serif;
-  --font-body: "Inter", sans-serif;
+  --font-heading: "Bricolage Grotesque", sans-serif;
+  --font-body: "DM Sans", sans-serif;
 }
 
 @layer base {
@@ -28,7 +31,7 @@
   body {
     font-family: var(--font-body);
     color: var(--color-text-primary);
-    background-color: var(--color-bg);
+    background-color: var(--color-bg-page);
     -webkit-font-smoothing: antialiased;
   }
 }

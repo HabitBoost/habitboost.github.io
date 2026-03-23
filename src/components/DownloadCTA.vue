@@ -3,65 +3,60 @@
 <template>
   <section
     id="download"
-    class="flex flex-col items-center gap-6 md:gap-8 w-full px-5 md:px-[120px] py-12 md:py-20"
-    style="background: linear-gradient(180deg, #7C3AED 0%, #5B21B6 100%)"
+    class="flex flex-col items-center gap-6 md:gap-8 w-full px-5 md:px-20 py-12 md:py-20 bg-accent-coral"
   >
-    <!-- Badge -->
-    <div class="bg-white/[0.125] rounded-full px-4 py-2">
-      <span class="text-white/80 text-[12px] md:text-[13px] font-semibold">Скоро в доступе</span>
-    </div>
+    <span class="text-4xl md:text-5xl">🚀</span>
 
-    <!-- Title -->
     <h2
-      class="text-white text-[28px] md:text-[44px] font-bold text-center tracking-tight"
-      style="font-family: 'DM Sans', sans-serif; letter-spacing: -0.5px; max-width: 700px"
+      class="text-white text-[28px] md:text-[48px] font-bold text-center"
+      style="font-family: 'Bricolage Grotesque', sans-serif; max-width: 800px"
     >
-      Начните формировать полезные привычки уже сегодня
+      Начните менять свою жизнь сегодня
     </h2>
 
-    <!-- Subtitle -->
     <p
-      class="text-white/80 text-[15px] md:text-[18px] leading-[1.6] text-center"
-      style="max-width: 600px"
+      class="text-white/[0.87] text-sm md:text-lg text-center leading-[1.5]"
+      style="max-width: 650px"
     >
-      Скачайте HabitBoost и присоединяйтесь к 50 000+ людей, которые меняют свою жизнь шаг за шагом. Бесплатный старт.
+      Скачайте HabitBoost бесплатно и присоединяйтесь к 50,000+ пользователей, которые уже формируют полезные привычки
     </p>
 
     <!-- Buttons -->
-    <div class="flex flex-col md:flex-row gap-3 md:gap-4 pt-2 w-full md:w-auto">
-      <!-- App Store -->
+    <div class="flex flex-col md:flex-row gap-3 md:gap-4 w-full md:w-auto">
       <a
         href="#"
-        class="flex items-center justify-center gap-3 bg-white px-7 py-[14px] rounded-xl hover:bg-white/90 transition-colors w-full md:w-auto"
+        class="flex items-center justify-center gap-[10px] bg-white px-7 py-[14px] rounded-xl md:rounded-2xl hover:bg-white/90 transition-colors w-full md:w-auto"
       >
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#7C3AED" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1A1A1A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <path d="M12 20.94c1.5 0 2.75 1.06 4 1.06 3 0 6-8 6-12.22A4.91 4.91 0 0 0 17 5c-2.22 0-4 1.44-5 2-1-.56-2.78-2-5-2a4.9 4.9 0 0 0-5 4.78C2 14 5 22 8 22c1.25 0 2.5-1.06 4-1.06z"/>
           <path d="M10 2c0 2.5-2 4-2 4"/>
         </svg>
-        <div class="flex flex-col gap-0.5">
+        <div class="flex flex-col">
           <span class="text-text-secondary text-[11px]">Загрузите в</span>
-          <span class="text-text-primary text-[18px] font-bold" style="font-family: 'DM Sans', sans-serif">App Store</span>
+          <span class="text-text-primary text-lg font-bold">App Store</span>
         </div>
       </a>
-
-      <!-- Google Play -->
       <a
         href="#"
-        class="flex items-center justify-center gap-3 bg-white px-7 py-[14px] rounded-xl hover:bg-white/90 transition-colors w-full md:w-auto"
+        class="flex items-center justify-center gap-[10px] bg-white px-7 py-[14px] rounded-xl md:rounded-2xl hover:bg-white/90 transition-colors w-full md:w-auto"
       >
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#7C3AED" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1A1A1A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <polygon points="5 3 19 12 5 21 5 3"/>
         </svg>
-        <div class="flex flex-col gap-0.5">
+        <div class="flex flex-col">
           <span class="text-text-secondary text-[11px]">Доступно в</span>
-          <span class="text-text-primary text-[18px] font-bold" style="font-family: 'DM Sans', sans-serif">Google Play</span>
+          <span class="text-text-primary text-lg font-bold">Google Play</span>
         </div>
       </a>
     </div>
 
-    <!-- Trust note -->
-    <p class="text-white/60 text-[12px] md:text-[14px] text-center">
-      Бесплатное скачивание · Без банковской карты · Отмена в любой момент
-    </p>
+    <!-- Trust -->
+    <div class="flex items-center gap-2">
+      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.67)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/>
+        <path d="m9 12 2 2 4-4"/>
+      </svg>
+      <span class="text-white/[0.67] text-xs md:text-sm">Бесплатно · Без рекламы · Безопасно</span>
+    </div>
   </section>
 </template>

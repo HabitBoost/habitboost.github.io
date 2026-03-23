@@ -1,86 +1,102 @@
 <script setup lang="ts">
 const stats = [
-  { num: '50K+', label: 'Активных пользователей' },
-  { num: '1M+', label: 'Привычек отслежено' },
-  { num: '4.8★', label: 'Рейтинг App Store' },
-  { num: '92%', label: 'Успешность' },
+  { num: '50,000+', label: 'Активных пользователей', color: '#FF6B6B' },
+  { num: '2.5M+', label: 'Привычек выполнено', color: '#22C55E' },
+  { num: '92%', label: 'Пользователей остаются после 30 дней', color: '#6366F1' },
+  { num: '4.8★', label: 'Средняя оценка в App Store', color: '#D97706' },
 ]
 
 const testimonials = [
   {
-    stars: 5,
-    quote: 'HabitBoost полностью изменил мой утренний распорядок. Отслеживание серий мотивирует меня каждый день!',
-    avatarColor: '#7C3AED',
-    name: 'Anna K.',
-    role: 'Использует HabitBoost 6 месяцев',
+    quote: 'HabitBoost полностью изменил мой подход к утренней рутине. За 3 месяца я выработал 5 новых привычек, которые теперь выполняю автоматически. Трекер стриков невероятно мотивирует!',
+    avatar: '/images/generated-1774262765377.png',
+    name: 'Дмитрий Козлов',
+    role: 'Предприниматель',
   },
   {
-    stars: 5,
-    quote: 'Я перепробовала десятки приложений для привычек, но именно это прижилось. Напоминания умные, а интерфейс красивый.',
-    avatarColor: '#8B5CF6',
-    name: 'Michael T.',
-    role: 'Серия 21 день и не останавливается',
+    quote: 'Функция SOS — это находка! В моменты стресса дыхательные упражнения реально помогают. А дневник рефлексии помог мне лучше понять свои паттерны поведения. Рекомендую всем!',
+    avatar: '/images/generated-1774262787426.png',
+    name: 'Анна Петрова',
+    role: 'Дизайнер',
   },
   {
-    stars: 5,
-    quote: 'Бейджи достижений затягивают! Вся моя семья теперь соревнуется, кто соберёт самую длинную серию.',
-    avatarColor: '#5B21B6',
-    name: 'Sarah L.',
-    role: 'Сбросила 10 кг благодаря полезным привычкам',
+    quote: 'Пользуюсь уже полгода. Система достижений и бейджей делает процесс формирования привычек настоящей игрой. Мой лучший стрик — 89 дней! Приложение стало частью моей жизни.',
+    avatar: '/images/generated-1774262805369.png',
+    name: 'Максим Волков',
+    role: 'Спортсмен',
   },
 ]
 </script>
 
 <template>
-  <section id="testimonials" class="flex flex-col items-center gap-10 md:gap-16 w-full px-5 md:px-[120px] py-12 md:py-20 bg-white">
-    <!-- Section Title -->
-    <div class="flex flex-col items-center gap-3 text-center">
+  <!-- Stats Section -->
+  <section id="stats" class="flex flex-col items-center gap-8 md:gap-12 w-full px-5 md:px-20 py-12 md:py-20" style="background: linear-gradient(180deg, #FFF5F5 0%, #FFFFFF 100%)">
+    <div class="flex flex-col items-center gap-3 w-full">
+      <div class="bg-[#FEF2F2] rounded-[20px] px-4 py-[6px]">
+        <span class="text-accent-coral text-[13px] font-semibold">Наше сообщество</span>
+      </div>
       <h2
-        class="text-[26px] md:text-[40px] font-bold text-text-primary tracking-tight"
-        style="font-family: 'DM Sans', sans-serif; letter-spacing: -0.5px"
+        class="text-[28px] md:text-[44px] font-bold text-text-primary text-center"
+        style="font-family: 'Bricolage Grotesque', sans-serif"
       >
-        Что говорят наши пользователи
+        Цифры говорят сами за себя
       </h2>
-      <p class="text-text-secondary text-[14px] md:text-[18px] text-center">
-        Присоединяйтесь к тысячам людей, изменивших свой распорядок дня
+      <p class="text-text-secondary text-sm md:text-lg text-center leading-[1.5]" style="max-width: 600px">
+        Присоединяйтесь к сообществу людей, которые меняют свою жизнь каждый день
       </p>
     </div>
 
-    <!-- Stats: 2x2 grid on mobile, row on desktop -->
-    <div class="grid grid-cols-2 md:flex md:flex-row gap-3 md:gap-8 w-full">
+    <!-- Stats Grid -->
+    <div class="grid grid-cols-2 md:flex md:flex-row gap-4 md:gap-8 w-full">
       <div
         v-for="stat in stats"
         :key="stat.label"
-        class="flex flex-col items-center gap-1 md:gap-2 flex-1 px-4 md:px-6 py-5 md:py-8 rounded-2xl bg-white border border-border"
+        class="flex flex-col items-center gap-1 md:gap-2 flex-1 px-4 md:px-6 py-6 md:py-10 rounded-[20px] md:rounded-3xl bg-white border border-border-subtle"
       >
         <span
-          class="text-[32px] md:text-[48px] font-bold text-primary tracking-tight"
-          style="font-family: 'DM Sans', sans-serif; letter-spacing: -1px"
+          class="text-[32px] md:text-[48px] font-extrabold tracking-tight"
+          :style="{ color: stat.color, fontFamily: 'Bricolage Grotesque, sans-serif' }"
         >{{ stat.num }}</span>
-        <span class="text-[13px] md:text-[16px] font-medium text-text-secondary text-center">{{ stat.label }}</span>
+        <span class="text-[12px] md:text-base font-medium text-text-secondary text-center">{{ stat.label }}</span>
       </div>
     </div>
+  </section>
 
-    <!-- Testimonials -->
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="flex flex-col items-center gap-8 md:gap-12 w-full px-5 md:px-20 py-12 md:py-20 bg-bg-card">
+    <div class="flex flex-col items-center gap-3 w-full">
+      <div class="bg-[#F0FDF4] rounded-[20px] px-4 py-[6px]">
+        <span class="text-accent-green text-[13px] font-semibold">Отзывы</span>
+      </div>
+      <h2
+        class="text-[28px] md:text-[44px] font-bold text-text-primary text-center"
+        style="font-family: 'Bricolage Grotesque', sans-serif"
+      >
+        Что говорят наши пользователи
+      </h2>
+      <p class="text-text-secondary text-sm md:text-lg text-center">
+        Реальные истории людей, которые изменили свои привычки
+      </p>
+    </div>
+
+    <!-- Testimonial Cards -->
     <div class="flex flex-col md:flex-row gap-4 md:gap-6 w-full">
       <div
         v-for="t in testimonials"
         :key="t.name"
-        class="flex flex-col gap-4 md:gap-5 flex-1 p-6 md:p-8 rounded-2xl bg-primary-bg border border-[#E8E0F5]"
+        class="flex flex-col gap-4 md:gap-5 flex-1 p-6 md:p-8 rounded-[20px] md:rounded-3xl bg-white"
       >
-        <span class="text-primary text-[18px] md:text-[20px]">★★★★★</span>
-        <p class="text-text-primary text-[14px] md:text-[16px] leading-[1.6] w-full">{{ t.quote }}</p>
+        <span class="text-accent-yellow text-lg md:text-xl font-bold">★★★★★</span>
+        <p class="text-text-primary text-sm md:text-base leading-[1.6]">{{ t.quote }}</p>
         <div class="flex items-center gap-3">
-          <div
-            class="w-11 h-11 rounded-full flex-shrink-0"
-            :style="{ backgroundColor: t.avatarColor }"
-          ></div>
+          <img
+            :src="t.avatar"
+            :alt="t.name"
+            class="w-10 md:w-12 h-10 md:h-12 rounded-full object-cover flex-shrink-0"
+          />
           <div class="flex flex-col gap-0.5">
-            <span
-              class="text-[15px] font-semibold text-text-primary"
-              style="font-family: 'DM Sans', sans-serif"
-            >{{ t.name }}</span>
-            <span class="text-[13px] text-text-muted">{{ t.role }}</span>
+            <span class="text-[15px] font-semibold text-text-primary">{{ t.name }}</span>
+            <span class="text-[13px] text-text-secondary">{{ t.role }}</span>
           </div>
         </div>
       </div>
