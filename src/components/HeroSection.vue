@@ -1,9 +1,9 @@
 <script setup lang="ts"></script>
 
 <template>
-  <section class="flex flex-col md:flex-row items-center w-full gap-8 md:gap-16 px-5 md:px-20 py-10 md:py-14 bg-white min-h-[calc(100vh-64px)] md:min-h-[calc(100vh-80px)] justify-center">
+  <section class="flex flex-col md:flex-row items-center w-full gap-6 md:gap-16 px-5 md:px-20 py-10 md:py-14 bg-white md:min-h-[calc(100vh-80px)] justify-center">
     <!-- Left Column -->
-    <div class="flex flex-col items-center md:items-start gap-8 flex-1 w-full">
+    <div class="flex flex-col items-center md:items-start gap-6 md:gap-8 flex-1 w-full">
       <h1
         class="text-[32px] md:text-[48px] font-extrabold leading-[1.15] text-center md:text-left text-text-primary"
         style="font-family: 'Bricolage Grotesque', sans-serif"
@@ -30,43 +30,34 @@
       </span>
     </div>
 
-    <!-- iPhone Mockup — Desktop only, fits within viewport -->
+    <!-- iPhone Mockup — Desktop -->
     <div class="iphone-mockup hidden md:block flex-shrink-0" style="margin-bottom: 60px">
-      <!-- Frame -->
       <div class="iphone-frame">
-        <!-- Side buttons -->
         <div class="iphone-btn-power"></div>
         <div class="iphone-btn-vol iphone-btn-vol--1"></div>
         <div class="iphone-btn-vol iphone-btn-vol--2"></div>
         <div class="iphone-btn-vol iphone-btn-vol--3"></div>
-        <!-- Screen -->
         <div class="iphone-screen">
-          <!-- Dynamic Island -->
           <div class="iphone-island"></div>
-          <!-- App Screenshot -->
-          <img
-            src="/images/REkoD.png"
-            alt="HabitBoost app"
-            class="iphone-app-img"
-          />
+          <img src="/images/REkoD.png" alt="HabitBoost app" class="iphone-app-img" />
+        </div>
+      </div>
+    </div>
+
+    <!-- iPhone Mockup — Mobile (inside hero, below text) -->
+    <div class="flex md:hidden items-center justify-center w-full">
+      <div class="iphone-frame iphone-frame--sm">
+        <div class="iphone-btn-power iphone-btn-power--sm"></div>
+        <div class="iphone-btn-vol iphone-btn-vol--sm iphone-btn-vol--sm-1"></div>
+        <div class="iphone-btn-vol iphone-btn-vol--sm iphone-btn-vol--sm-2"></div>
+        <div class="iphone-btn-vol iphone-btn-vol--sm iphone-btn-vol--sm-3"></div>
+        <div class="iphone-screen iphone-screen--sm">
+          <div class="iphone-island iphone-island--sm"></div>
+          <img src="/images/REkoD.png" alt="HabitBoost app" class="iphone-app-img" />
         </div>
       </div>
     </div>
   </section>
-
-  <!-- iPhone Mockup — Mobile only, below fold (appears on scroll) -->
-  <div class="flex md:hidden items-center justify-center px-5 pb-12 bg-white">
-    <div class="iphone-frame iphone-frame--sm">
-      <div class="iphone-btn-power iphone-btn-power--sm"></div>
-      <div class="iphone-btn-vol iphone-btn-vol--sm iphone-btn-vol--sm-1"></div>
-      <div class="iphone-btn-vol iphone-btn-vol--sm iphone-btn-vol--sm-2"></div>
-      <div class="iphone-btn-vol iphone-btn-vol--sm iphone-btn-vol--sm-3"></div>
-      <div class="iphone-screen iphone-screen--sm">
-        <div class="iphone-island iphone-island--sm"></div>
-        <img src="/images/REkoD.png" alt="HabitBoost app" class="iphone-app-img" />
-      </div>
-    </div>
-  </div>
 </template>
 
 <style scoped>
@@ -77,12 +68,17 @@
 
 /* ── Desktop iPhone ── */
 .iphone-mockup {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   height: calc(100vh - 160px);
   max-height: 700px;
   min-height: 500px;
+}
+
+@media (min-width: 768px) {
+  .iphone-mockup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 .iphone-frame {
