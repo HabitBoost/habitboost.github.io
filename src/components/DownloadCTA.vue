@@ -18,35 +18,16 @@
       class="text-white/[0.87] text-sm md:text-lg text-center leading-[1.5]"
       style="max-width: 650px"
     >
-      Скачайте HabitBoost бесплатно и присоединяйтесь к 50,000+ пользователей, которые уже формируют полезные привычки
+      Скачайте HabitBoost бесплатно и присоединяйтесь к пользователям, которые уже формируют полезные привычки
     </p>
 
     <!-- Buttons -->
     <div class="flex flex-col md:flex-row gap-3 md:gap-4 w-full md:w-auto">
-      <a
-        href="#"
-        class="flex items-center justify-center gap-[10px] bg-white px-7 py-[14px] rounded-xl md:rounded-2xl hover:bg-white/90 transition-colors w-full md:w-auto"
-      >
-        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1A1A1A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M12 20.94c1.5 0 2.75 1.06 4 1.06 3 0 6-8 6-12.22A4.91 4.91 0 0 0 17 5c-2.22 0-4 1.44-5 2-1-.56-2.78-2-5-2a4.9 4.9 0 0 0-5 4.78C2 14 5 22 8 22c1.25 0 2.5-1.06 4-1.06z"/>
-          <path d="M10 2c0 2.5-2 4-2 4"/>
-        </svg>
-        <div class="flex flex-col">
-          <span class="text-text-secondary text-[11px]">Загрузите в</span>
-          <span class="text-text-primary text-lg font-bold">App Store</span>
-        </div>
+      <a href="#" class="hover:opacity-85 transition-opacity w-full md:w-auto flex justify-center">
+        <img src="/images/badge-appstore.png" alt="Download on the App Store" class="h-[54px]" />
       </a>
-      <a
-        href="#"
-        class="flex items-center justify-center gap-[10px] bg-white px-7 py-[14px] rounded-xl md:rounded-2xl hover:bg-white/90 transition-colors w-full md:w-auto"
-      >
-        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1A1A1A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <polygon points="5 3 19 12 5 21 5 3"/>
-        </svg>
-        <div class="flex flex-col">
-          <span class="text-text-secondary text-[11px]">Доступно в</span>
-          <span class="text-text-primary text-lg font-bold">Google Play</span>
-        </div>
+      <a href="#" class="hover:opacity-85 transition-opacity w-full md:w-auto flex justify-center">
+        <img src="/images/badge-googleplay.png" alt="Get it on Google Play" class="h-[54px]" />
       </a>
     </div>
 
